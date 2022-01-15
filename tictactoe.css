@@ -1,0 +1,30 @@
+.container{
+	width: 325px;
+	overflow: hidden;
+	margin: 100px auto 0 auto;
+	background-color: rgb(151, 150, 150);
+}
+
+.container header{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.container .square{
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	border: 0.5px solid rgb(5, 5, 5);
+	font-size: 70px;
+	line-height: 100px; 
+	cursor: pointer;
+  }
+
+.container .square:hover{
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
